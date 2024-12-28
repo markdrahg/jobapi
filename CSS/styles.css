@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #0f6cbf;
+    margin-top: 20px;
+}
+
+.job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.job-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.job-item:hover {
+    transform: translateY(-5px);
+}
+
+.job-title {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.job-title:hover {
+    color: #005f8d;
+}
+
+.job-item p {
+    margin: 10px 0;
+    color: #555;
+}
+
+strong {
+    color: #333;
+}
+
+
+
+/* Search Jobs UI */
+
+.job-search-form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.job-search-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.job-search-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.job-search-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* Personal additional css */
+
